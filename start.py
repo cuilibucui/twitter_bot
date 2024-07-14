@@ -11,3 +11,4 @@ adsarr = input("请输入浏览器序号，连续格式：1-20,不连续使用�
 open = int(input("请输入任务类型，【1】Twitter，【2】discord，【3】Twitter+discord:") or 3)  # 任务类型
 start_time = datetime.datetime.now().replace(microsecond=0)
 serial_number = []
+type = "1"
